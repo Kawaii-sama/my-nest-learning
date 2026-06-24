@@ -16,4 +16,4 @@
 13. as it is text:- pre tag <pre>
 14. source code:- <code>
 15. formatting:- bold <b>, italic <i>, underline <u>, Em <em>
-16. Elements:- inline :- embedded elements and block element :- new line.
+16. Elements:- inline :- embedded elements <img>, <link> and block element :- new line <div>.
