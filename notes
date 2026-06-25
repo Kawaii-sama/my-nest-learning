@@ -18,3 +18,4 @@
 15. formatting:- bold <b>, italic <i>, underline <u>, Em <em>
 16. Elements:- inline :- embedded elements <img>, <link> and block element :- new line <div>.
 17. ids and classes:- to target specific elements and areas.
+18. embed tag :- for embedding images.
