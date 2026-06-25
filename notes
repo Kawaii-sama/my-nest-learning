@@ -19,3 +19,4 @@
 16. Elements:- inline :- embedded elements <img>, <link> and block element :- new line <div>.
 17. ids and classes:- to target specific elements and areas.
 18. embed tag :- for embedding images.
+19. css flexbox:- flex container :- parent activates itslef using display : flex; direct child are flex elements
