@@ -13,3 +13,12 @@ h1, h2, h3 { // h1,h2,h3 are tag selectors
 <style>
 h1 { color : blue; }
 </style>
+
+
+p1 {
+
+    font-size: 20px;
+    font-style:italic;
+    font-weight:bold;
+    font-family:verdana;
+}
