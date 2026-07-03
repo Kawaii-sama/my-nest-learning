@@ -1,22 +1,21 @@
 1. selectors and declaration box:-
 2. selectors { property : value; }
-3. selectors can be tags, classes, ids or their combinations.
-4. Anything can be added in that is html?
-5. After selectors are done, we need to define styles corresponding styles which get applied on selectors in HTML.
-6. Generally simple selectors are used but we can use of any kind :- tag , class , id, element , attribute, universal
-7. three ways of using css:- 
+3. selectors can be tags, classes, ids or their combinations.   
+4. After selectors are done, we need to define styles corresponding styles which get applied on selectors in HTML.
+5. Generally simple selectors are used but we can use of any kind :- tag , class , id, element , attribute, universal
+6. three ways of using css:- 
     external (most common) adding an external .css extension style sheet to html usink link tag, 
     inline (not recommended) using style attribute directly in html page,
     internal (embedded) using style tag in html and defining rules inside it.
 
-8. Font property :- size, family, color, style, weight
-9. text propert:- alignment, spacing, decoration
-10. background property:- color,
-11. border:- color, thickness, radius
-12. box model:- border, padding, margin, width, background-color
-13. color:- vibrant color of every part of the component.
-14. table styling rules:- border, border-collapse, padding, width, (th, td, tr)
-15. positioning:- absolute, relative, sticky, static
-16. css: transition and animation
-17. flexbox:- customizing an element in page. flex container :- parent activates itslef using display : flex; direct child are flex elements
-18. css grid:- customizing an element in page. grid container :- parent activates itslef using display : grid; direct child are grid elements.
+7. Font property :- size, family, color, style, weight
+8. text property:- alignment, spacing, decoration
+9. background property:- color,
+10. border:- color, thickness, radius
+11. box model:- border, padding, margin, width, background-color
+12. color:- vibrant color of every part of the component.
+13. table styling rules:- border, border-collapse, padding, width, (th, td, tr)
+14. positioning:- absolute, relative, sticky, static
+15. css: transition and animation
+16. flexbox:- customizing an element in page. flex container :- parent activates itslef using display : flex; direct child are flex elements
+17. css grid:- customizing an element in page. grid container :- parent activates itslef using display : grid; direct child are grid elements.
