@@ -77,3 +77,12 @@ div{
     75% {background: green; left: 150px; top: 0px;}
     100% {background: red; left: 0px; top: 0px;}
 }
+
+.flex-container {
+    display: flex; background-color: lightgrey;
+}
+
+.flex-container {
+    background-color: hotpink; margin: 10px; padding: 10px; display: flex;
+
+}
