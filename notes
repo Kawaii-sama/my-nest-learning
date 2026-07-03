@@ -8,7 +8,7 @@
 5. comments:- main content is visible after content in body text get parsed, if you do not want any text to get parsed. use comments:- <!---comment--->
 6. headings in html:- h1 -> h2 -> h3 -> h4 -> h5 -> h6
 7. paragraph tag:- to write paragraph
-8. anchor tag:- to open a link of wny web page. target attributes tells us address of opening web page.
+8. anchor tag:- to open a link of any web page. target attributes tells us address of opening web page.
 9. attributes:- style attribute :- to syle element, we can write css inside it
 10. list :- ordered <ol>, unordered <ul>, <li>
 11. tables:- <ta> table, <tr> table row, <th> table heading, <td> table data
