@@ -95,4 +95,8 @@
 
     sisName.length;
 
+14. template literals:- embeds variable into string.
+    let firstName = 'Dragon'; let lastName = 'Fairy';
+    console.log (`My name is ${firstName} , ${lastName}`;)
+
 */
