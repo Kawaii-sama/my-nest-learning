@@ -40,4 +40,6 @@
         default:
         console.log(Chal hatt);
     }
+
+10. loops is js:- for loop, for each, for of, while, do while
 */
