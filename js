@@ -7,5 +7,10 @@
 5. Airthmatic operators:- + , - , * , / , %
 6. Datatypes:- Primitive:- immutable data which is at lowest level of this language. object:- key value pair
     to access keys in object:- object['key'] or object.key ; object ko update karna:- object['key'] = newValue; value print karna
-    object['key']()
+    object['key']().
+7. nested objects:- user = {
+                    name : pratibha;
+                    gender : female;
+                    address:
+                        1st: India}
 */
