@@ -117,4 +117,6 @@
 27. Non blocking event loop:- offloads time consuming tasks to system kernel so that javascript can execute code without waiting.
 28. handles io intensive work, even though it is single threaded, because of non blocking event loop.
 29. <script> tag is used to add this in frontend.
+30. various listeners are used, one of them is btn.onclick = () => {}  , used for making button intercative
+31.
 */
