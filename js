@@ -4,4 +4,5 @@
 2. var:- update yes, redeclare yes, initial value undefined
 3. let:- update yes, redeclare no, initial value not undefined
 4. const:- update no, redeclare no
+5. Airthmatic operators:- + , - , * , / , %
 */
