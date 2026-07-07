@@ -22,4 +22,22 @@
         }
             }
         }
+
+
+9. switch (day) {
+        case 1:
+        console.log(Monday);
+        break;
+        
+        case 2:
+        console.log(Turesday);
+        break;
+        
+        case 3:
+        console.lod(Wednesday);
+        break;
+        
+        default:
+        console.log(Chal hatt);
+    }
 */
