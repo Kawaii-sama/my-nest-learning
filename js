@@ -100,4 +100,6 @@
     console.log (`My name is ${firstName} , ${lastName}`);
 
 15. const arr = ['Diamond' , 'Business'];
+16. console.log(typeof('Hello')); console.log(typeof(19.02));
+
 */
