@@ -118,5 +118,5 @@
 28. handles io intensive work, even though it is single threaded, because of non blocking event loop.
 29. <script> tag is used to add this in frontend.
 30. various listeners are used, one of them is btn.onclick = () => {}  , used for making button intercative
-31.
+31. javascript is used to grab an element from the DOM.
 */
