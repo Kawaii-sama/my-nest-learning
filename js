@@ -111,4 +111,5 @@
 21. single threaded:- has a single call stack and executes one command at a time.
 22. interpreted:- executes line-by-line at run time.
 23. JIT:- Just in time, dynamic conversion of javascript code into machine code before execution
+24. prototype - based:- object can inherit properties directly from other objects rather than blueprints.
 */
