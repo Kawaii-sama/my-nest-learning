@@ -130,4 +130,8 @@
 40. through document object:- querySelector():- for searching for various elemnts.
     through element objects:- .addEventListener():-add user event listeners, .style .color:- change the appearance of the page
 41. funtion keyword for functions, . for methods (.sort(), .toUpperCase(), .indexOf()).
+42.asynchronous js is in which we give the priority to those who require less time of completion.
+   synchronous js is in which execution is line by line 
+43.a funtion is passed as an argument to another function is called callback fcn.
+44.
 */
