@@ -134,4 +134,5 @@
    synchronous js is in which execution is line by line 
 43.a funtion is passed as an argument to another function is called callback fcn.
 44. html:- labelling of page, answers what question, structure of the page
+45. mdn for notes
 */
