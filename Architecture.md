@@ -35,11 +35,11 @@ my-nest-learning
 │
 ├── package.json
 ├── package-lock.json
-├── tsconfig.json
-├── tsconfig.build.json
-├── nest-cli.json
-├── eslint.config.mjs
+├── tsconfig.json -> how typescript must be compiled
+├── tsconfig.build.json -> used at build time, while compiling optimized typescript
+├── nest-cli.json -> reads commands of cli
+├── eslint.config.mjs -> defining nestjs rules
 ├── .gitignore -> list of files that should not be tracked by git
-├── .prettierrc
-├── README.md
+├── .prettierrc -> defining formatting rules
+├── README.md -> documentation
 └── Architecture.md
