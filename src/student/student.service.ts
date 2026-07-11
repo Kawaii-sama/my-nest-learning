@@ -17,4 +17,15 @@ export class StudentService {
         if(!student) throw new NotFoundException('Student Not Found!');
         return student;
     }
+
+
+    //POST:-
+    createStudent (data : {name: string; age : number}) {
+        const newStudent = {
+            id : Date.now(), ...data,
+        };
+
+        this.students.push(newStudent);
+        return newStudent;
+    }
 }
