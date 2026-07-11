@@ -1,4 +1,9 @@
+import { IsInt, IsString } from "class-validator";
+
 export class CreateCustomerDto {
-    name : string;
-    age : number;
+    @IsString()
+    "name" : string;
+
+    @IsInt()
+    "age" : number;
 }
