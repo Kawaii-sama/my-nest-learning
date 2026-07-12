@@ -13,4 +13,8 @@ export class DatabaseService {
         this.isConnected = false;
         console.log(`Database Disconnected due to app shutdown. Signal ${signal}`)
     }
+
+    getStaus() {
+        return this.isConnected ? 'Connected' : 'Disconnected';
+    }
 }
