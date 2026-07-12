@@ -9,11 +9,11 @@ export class UserRolesController {
     @UseGuards(RolesGuard)
     @Roles(Role.Admin)
     getAdminData() {
-        return { message : "Only Admin can access"}
+        return { message : 'Only Admin can access'}
 
     }
 
-    @Get('user-roles')
+    @Get('user-data')
     getUserData() {
         return { message : 'Anyone can access'}
     }
