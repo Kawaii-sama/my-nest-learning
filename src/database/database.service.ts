@@ -1,4 +1,16 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, onModuleInit , onApplicationShutdown} from '@nestjs/common';
 
 @Injectable()
-export class DatabaseService {}
+export class DatabaseService {
+    private isConnected = false;
+
+    onModuleInit(){
+        this.isConnected = true;
+        console.log(`Database Connected!`);
+    }
+
+    onApplicationShutdown(signal : string){
+        this.isConnected = false;
+        console.log(`Database Disconnected due to app shutdown. Signal ${signal}`)
+    }
+}
