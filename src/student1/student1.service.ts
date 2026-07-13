@@ -15,4 +15,8 @@ export class Student1Service {
         return newStudent1.save();
 
     }
+
+    async getAllStudents1() : Promise<Student1[]> {
+        return this.student1Model.find().exec();
+    }
 }
