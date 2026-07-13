@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { Student1Service } from './student1.service';
 import { Student1 } from './student1.schema';
 
@@ -14,6 +14,11 @@ export class Student1Controller {
     @Get()
     async getStudents1() {
         return this.student1Service.getAllStudents1();
+    }
+
+    @Get(':id')
+    async getStudent1(@Param('id') id : string) {
+        return this.student1Service.getStudent1ByID(id);
     }
 
 }
