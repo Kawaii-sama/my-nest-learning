@@ -23,7 +23,8 @@ import { MongooseModule } from '@nestjs/mongoose';
   imports: [EmployeeModule, CategoryModule, StudentModule, CustomerModule, ConfigModule.forRoot({
     isGlobal: true,
   }), 
-  MongooseModule.forRoot(process.env.MONGO_URI!),],
+  MongooseModule.forRoot(process.env.MONGO_URI!),
+],
   controllers: [AppController, UserController, ProductController, MynameController, UserRolesController, ExceptionController, DatabaseController, EvController],
   providers: [AppService, ProductService, DatabaseService, EvService],
 })
