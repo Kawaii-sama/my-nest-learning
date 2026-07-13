@@ -30,4 +30,13 @@ export class Student1Controller {
     }
 
 
+    @Patch(':id')
+    async patchStudent1(
+        @Param('id') id : string,
+        @Body() data: Partial<Student1>,
+    ) {
+        return this.student1Service.patchStudent1(id,data);
+    }
+
+
 }
