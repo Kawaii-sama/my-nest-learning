@@ -19,4 +19,8 @@ export class Student1Service {
     async getAllStudents1() : Promise<Student1[]> {
         return this.student1Model.find().exec();
     }
+
+    async getStudent1ByID(id : string) : Promise<Student1 | null>{
+        return this.student1Model.findById(id).exec();
+    }
 }
