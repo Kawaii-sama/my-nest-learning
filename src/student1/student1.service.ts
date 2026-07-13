@@ -30,7 +30,8 @@ export class Student1Service {
             name : data.name ?? null,
             age : data.age ?? null,
             email : data.email ?? null,
-        })
+        }, {overwrite: true, new : true})
+        return updated;
     }
 
     async patchStudent1(id : string, data : Partial<Student1>): Promise<Student1 | null> {
