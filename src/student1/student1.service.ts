@@ -23,4 +23,12 @@ export class Student1Service {
     async getStudent1ByID(id : string) : Promise<Student1 | null>{
         return this.student1Model.findById(id).exec();
     }
+
+    async updateStudent1(id : string, data : Partial<Student1>): Promise<Student1 | null> {
+        return this.student1Model.findByIdAndUpdate(id, data, {new : true}).exec();
+    }
+
+    async patchStudent1(id : string, data : Partial<Student1>): Promise<Student1 | null> {
+        return this.student1Model.findByIdAndUpdate(id, data, {new : true}).exec();
+    }
 }
