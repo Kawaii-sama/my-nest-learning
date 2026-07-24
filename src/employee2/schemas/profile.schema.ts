@@ -8,7 +8,8 @@ export class Profile extends Document {
 
     @Prop()
     'qualifictaion' : string;
-
-
-
 }
+
+//for registrinf schema:-
+
+export const ProfileSchema = SchemaFactory.createForClass(Profile);
