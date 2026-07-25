@@ -7,4 +7,8 @@ export class Employee2 extends Document {
     @Prop()
     'name' : string;
 
+    @Prop({type: MongooseSchema.Types.ObjectId, ref: 'Profile'})
+    'profile' : Profile;
+
+
 }
