@@ -12,3 +12,5 @@ export class Product1 extends Document{
     'tags' : Tag[];
 
 }
+
+export const Product1Schema = SchemaFactory.createForClass('Product1');
