@@ -28,5 +28,7 @@ export class LibraryService {
 
     }
 
-    
+    async getLibraries() : Promise<Library[]>{
+        return this.libraryModel.find().populate('books');
+    }
  }
