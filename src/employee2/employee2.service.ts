@@ -24,4 +24,8 @@ export class Employee2Service {
 
         return employee2.save();
     }
+
+    async findAll(): Promise <Employee2[]> {
+        return this.employee2Model.find();
+    }
 }
