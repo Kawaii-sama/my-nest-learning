@@ -9,3 +9,5 @@ export class Book extends Document {
     @Prop()
     'author' : string;
 }
+
+export const BookSchema = SchemaFactory.createForClass(Book);
