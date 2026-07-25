@@ -26,6 +26,6 @@ export class Employee2Service {
     }
 
     async findAll(): Promise <Employee2[]> {
-        return this.employee2Model.find().populate('Profile').exec();
+        return this.employee2Model.find().populate('profile').exec();
     }
 }
