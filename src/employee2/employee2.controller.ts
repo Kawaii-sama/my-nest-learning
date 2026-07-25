@@ -1,4 +1,13 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Post } from '@nestjs/common';
+import { Employee2Service } from './employee2.service';
 
 @Controller('employee2')
-export class Employee2Controller {}
+export class Employee2Controller {
+
+    constructor(private readonly employee2service: Employee2Service) {}
+
+    @Post()
+    create() {
+        return this.employee2service.createEmployee2();
+    }
+}
