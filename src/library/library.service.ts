@@ -12,6 +12,21 @@ export class LibraryService {
     ) {}
 
     async createLibrary() : Promise<Library> {
-        
+        const book1 = await this.bookModel.create({
+            title : "Fairies ki duniya", 'author' : "Pratibha"
+        });
+
+        const book2 = await this.bookModel.create({
+            title: "Jalpari ki duniya", author: "Pratibha"
+        });
+
+        const library = new this.libraryModel({ 
+            name : 'Central Library',
+            books : [book1._id, book2._id]
+        })
+        return library.save();
+
     }
+
+    
  }
