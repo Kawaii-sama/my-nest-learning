@@ -13,4 +13,4 @@ export class Product1 extends Document{
 
 }
 
-export const Product1Schema = SchemaFactory.createForClass('Product1');
+export const Product1Schema = SchemaFactory.createForClass(Product1);
