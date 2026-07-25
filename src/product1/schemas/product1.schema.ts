@@ -9,5 +9,6 @@ export class Product1 extends Document{
     'title' : string;
 
     @Prop({type : [Tag]})
+    'tags' : Tag[];
 
 }
