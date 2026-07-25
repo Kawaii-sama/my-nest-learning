@@ -16,5 +16,12 @@ export class Employee2Service {
             age : 20,
             qualifictaion : 'Masters'
         }).save();
+
+        const employee2 = await new this.employee2Model ({
+            name: 'Pratibha',
+            profile : profile._id
+        });
+
+        return employee2.save();
     }
 }
