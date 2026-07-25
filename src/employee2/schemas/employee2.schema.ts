@@ -12,3 +12,5 @@ export class Employee2 extends Document {
 
 
 }
+
+export const Employee2Schema = SchemaFactory.createForClass(Employee2);
