@@ -4,5 +4,7 @@ import { Profile } from "./profile.schema"
 
 @Schema()
 export class Employee2 extends Document {
+    @Prop()
+    'name' : string;
 
 }
