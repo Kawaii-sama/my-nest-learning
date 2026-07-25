@@ -10,4 +10,8 @@ export class LibraryService {
         @InjectModel(Book.name) private bookModel : Model<Book>,
         @InjectModel(Library.name) private libraryModel: Model<Library>,
     ) {}
-}
+
+    async createLibrary() : Promise<Library> {
+        
+    }
+ }
