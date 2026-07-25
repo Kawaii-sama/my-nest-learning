@@ -19,4 +19,8 @@ export class Product1Service {
 
         return product1.save();
     }
+
+    async getAllProducts1() : Promise<Product1[]> {
+        return this.product1Model.find();
+    }
 }
