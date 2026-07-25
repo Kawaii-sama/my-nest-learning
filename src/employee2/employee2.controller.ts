@@ -4,15 +4,15 @@ import { Employee2Service } from './employee2.service';
 @Controller('employee2')
 export class Employee2Controller {
 
-    constructor(private readonly employee2service: Employee2Service) {}
+    constructor(private readonly employee2Service: Employee2Service) {}
 
     @Post()
     create() {
-        return this.employee2service.createEmployee2();
+        return this.employee2Service.createEmployee2();
     }
 
     @Get()
     getAll() {
-        this.employee2service.findAll();
+        return this.employee2Service.findAll();
     }
 }
