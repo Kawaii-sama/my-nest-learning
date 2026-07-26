@@ -11,3 +11,5 @@ export class Developer extends Document {
 
 
 }
+
+export const DeveloperSchema = SchemaFactory.createForClass(Developer);
