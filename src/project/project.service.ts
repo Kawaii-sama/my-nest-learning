@@ -35,8 +35,13 @@ export class ProjectService {
             }),
 
             this.projectModel.findByIdAndUpdate (projectA._id, {
-                $set: {developers: [dev1._id, dev2._id]}
+                $set: {developers: [dev1._id]}
             })
         ])
+
+        return {dev1, dev2};
+    }
+    async getProjects() : Promise<Project[]> {
+        return this.projectModel.find().populate('developers').lean();
     }
 }
