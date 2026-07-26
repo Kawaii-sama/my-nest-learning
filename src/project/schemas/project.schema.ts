@@ -7,7 +7,7 @@ export class Project extends Document {
     'title' : string;
 
     @Prop({ type: [{type : Types.ObjectId, ref: 'Developer'}]})
-    'developer' : Types.ObjectId
+    'developer' : Types.ObjectId[];
 
 
 }
