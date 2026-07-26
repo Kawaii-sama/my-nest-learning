@@ -15,4 +15,10 @@ export class ProjectController {
         return this.service.getDevelopers();
     }
 
+
+    @Get()
+    getProject() {
+        return this.service.getProjects();
+    }
+
 }
