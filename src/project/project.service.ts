@@ -29,6 +29,14 @@ export class ProjectService {
             })
         ])
 
-        await
+        await Promise.all ([
+            this.projectModel.findByIdAndUpdate (projectA._id, {
+                $set: {developers: [dev1._id, dev2._id]}
+            }),
+
+            this.projectModel.findByIdAndUpdate (projectA._id, {
+                $set: {developers: [dev1._id, dev2._id]}
+            })
+        ])
     }
 }
