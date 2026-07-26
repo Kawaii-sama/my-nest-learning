@@ -17,7 +17,7 @@ export class ProjectController {
 
 
     @Get()
-    getProject() {
+    getProjects() {
         return this.service.getProjects();
     }
 
